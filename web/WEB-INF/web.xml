@@ -10,6 +10,6 @@
 
     <servlet-mapping>
         <servlet-name>QuizServlet</servlet-name>
-        <url-pattern>/quiz</url-pattern>
+        <url-pattern>/NumberQuiz</url-pattern>
     </servlet-mapping>
 </web-app>

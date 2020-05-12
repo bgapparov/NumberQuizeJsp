@@ -11,6 +11,6 @@
     <title>Number Quiz</title>
   </head>
   <body>
-  <a href="quiz">Number Quiz (JSP Edition)</a>
+  <a href="NumberQuiz">Number Quiz (JSP Edition)</a>
   </body>
 </html>
