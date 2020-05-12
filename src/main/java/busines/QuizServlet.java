@@ -31,7 +31,7 @@ public class QuizServlet extends HttpServlet {
             }
         }
         request.setAttribute("isCorrectAnswer", isCorrectAnswer);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("NumberQuiz.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("numberQuiz.jsp");
         dispatcher.forward(request, response);
         setSessionQuiz(request, quiz);
     }
@@ -39,7 +39,7 @@ public class QuizServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Quiz quiz = getSessionQuiz(request);
         request.setAttribute("isCorrectAnswer", true);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("NumberQuiz.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("numberQuiz.jsp");
         dispatcher.forward(request, response);
     }
 
