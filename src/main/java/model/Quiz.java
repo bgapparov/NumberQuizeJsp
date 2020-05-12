@@ -48,7 +48,7 @@ NC if the score is less than 25
         return correctAnswersCount;
     }
 
-    public String pu(){
+    public String getCurrentQuestion(){
         return questions[currentQuestionIndex].getQuestion();
     }
 
